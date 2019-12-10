@@ -31,7 +31,7 @@ namespace Post
         public string ReadPost()
         {
 
-            _template = $"\n{_title}\n{_description}\nThis post has {_votes} votes.";
+            _template = $"\n{_title}\n{_description}\n{_created}\nThis post has {_votes} votes.";
             return _template;
         }
     }
